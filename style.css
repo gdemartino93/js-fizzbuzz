@@ -1,0 +1,20 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.box{
+ width: 80px;
+ height: 80px;
+ background-color: red;
+ border: 1px solid black;
+}
+#fizz{
+    content: "fizzbuzz";
+}
