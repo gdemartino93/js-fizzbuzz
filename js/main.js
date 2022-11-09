@@ -7,5 +7,7 @@ for (var i = 1; i < 101; i++) {
     else if (i % 3 == 0) console.log("divisibile3");
     // se i diviso 5 da come resto 0 è divisibile per 5
     else if (i % 5 == 0) console.log("dibisibile5");
-   
+//    altrimenti stampa dirattamente il valore
+    else
+    console.log(i);
 }
